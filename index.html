@@ -6,13 +6,51 @@
     <title>Formularios</title>
 </head>
 <body>
-    <h2>Login</h2>
+    
     <form action="processa.php" method="post">
+        
+        <h2>Login</h2>
+
         Login: <br>
         <input type="text" name="login" placeholder=""><br>
         Senha: <br>
         <input type="password" name="senha" placeholder=""><br>
         <input type="submit" value="Entrar">
     </form>
+
+    
+    <form>
+
+        <h2>Cadastre-se</h2>
+        Nome: <br>
+        <input type="text" name="nome" placeholder=""><br> <br>
+        Sexo: <br> 
+        <input type="radio" name="sexo" value="M"> Masculino<br>
+        <input type="radio" name="sexo" value="F"> Feminino<br>
+        <br>
+        Interesses: <br>
+        <input type="checkbox" name="interesses" value="Esportes"> Futebol<br>
+        <input type="checkbox" name="interesses" value="Musica"> Música<br>
+        <input type="checkbox" name="interesses" value="Leitura"> Leitura<br>
+
+        <br>
+        Estado: <br>
+        <select name="estado">
+            <option value="SC">Santa Catarina</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="MG">Minas Gerais</option>
+        </select>
+        <br><br>
+        
+        Observações: <br>
+        <textarea name="observacoes" rows="4" cols="50"></textarea>
+        <br><br>
+
+        Cadastrar: <br>
+        <input type="submit" value="Cadastrar">
+        
+    </form>
+
+
 </body>
 </html>
