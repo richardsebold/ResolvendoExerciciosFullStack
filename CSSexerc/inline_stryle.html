@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".css">
+    <title>Inline Style</title>
+    <style type="text/css">
+
+        body {
+            background-color: #007fc7;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .borda {
+            padding: 10px;
+        }
+
+        #container {
+            background-color: #FFF;
+            width: 800px;
+            text-align: left;
+            margin: 10px auto;
+            padding: 10px;
+            position: relative;
+        }
+        h1 {
+            color: darkblue;
+            position: static;
+        }
+        p {
+            position: static;
+            color: gray;
+            font-size: 14px;
+            width: 300px;
+        }
+
+        .absolute {
+            position: absolute;
+            top: 70px;
+            right: 50px;
+        }
+
+        .relative {
+            position: relative;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Estilo CSS (Cascading Style Sheets)</h1>
+
+        <p class="absolute">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate hic, provident aliquid qui sit voluptatum libero deserunt sint nobis, asperiores cumque quibusdam? Saepe ex eligendi laborum, ratione aspernatur consectetur harum.</p>
+
+        <p class="relative">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi aliquid quos explicabo error ipsum dolorum hic harum molestiae omnis officia tempore magni similique neque iste temporibus, illo suscipit commodi labore!</p>
+
+    </div>
+
+</body>
+</html>

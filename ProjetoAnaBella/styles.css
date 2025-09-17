@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #FCFBEC ;
+    background-size: auto;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: #8b885a;
+    text-align: left;
+    padding: 10px 0;
+    
+}
+
+.menu {
+    background-color: #D3D3BC;
+    padding: 10px 0;
+    text-align: center;
+    color: rgb(31, 85, 156);
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 10px solid #D3D3BC;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(31, 85, 156);
+    font-weight: bold;
+}
+
+.menu p {
+    margin: 0;
+    display: inline;
+    padding: 0 15px;
+}
+
+.conteudo {
+    padding: 20px;
+    
+}
+
+.rodape {
+    background-color: #D3D3BC;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    }

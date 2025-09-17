@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.header {
+  background-color: #FFC400;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.menu {
+  margin-top: 10px;
+}
+
+.menu a {
+  color: #ffffff;
+  font-weight: bold;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.menu a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.menu a.active:hover {
+  text-decoration: none;
+}
+
+.menu-lateral a {
+  color: #FFC400;
+  font-weight: bold;
+  margin: 0 15px;
+  text-decoration: underline;
+}
+
+h2 {
+  color: #FFC400;
+  text-align: left;
+  font-size: 1.6em;
+}
+
+h3 {
+  color: #555;
+  font-style: italic;
+  text-align: left;
+  margin-top: -20px;
+  font-size: 16px;
+}
+.postagem {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 800px;
+  float: left;
+  position: relative;
+  width: calc(50% - 40px);
+  margin: 20px;
+  left: 200px;
+}
+.menu-lateral {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  color: #333;
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 300px;
+  float: left;
+  position: relative;
+  width: calc(50% - 40px);
+  margin: 20px;
+  left: 200px;
+}
+.menu-lateral h2 {
+  background-color: #eeeeee; /* cor de fundo */
+  color: #494949;            /* cor do texto cinza */
+  padding: 8px 12px;
+  border-radius: 4px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.menu-lateral ul {
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  margin: 0px;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  display: inline-block;
+}
